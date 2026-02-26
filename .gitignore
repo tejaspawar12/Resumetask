@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Uploads / temp (no PDFs in repo)
+uploads/
+*.pdf
+
+# Build / IDE
+.next/
+out/
+dist/
+build/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs / DB
+*.log
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation (local only — do not push to GitHub)
+LOOM_SCRIPT.md
+PHASE_PLAN.md
+PLAN_AI_Applicant_Ranking_System.md
+SUBMISSION.md
+VERIFICATION_CHECKLIST.md
