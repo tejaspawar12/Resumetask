@@ -149,7 +149,7 @@ export default async function CandidateDetailPage({ params }: Props) {
       {candidate.structured_profile && (
         <section className="mt-8 border-t pt-6">
           <h2 className="text-lg font-medium text-gray-900 mb-3">Extracted profile</h2>
-          {candidate.structured_profile.summary_or_bio && (
+          {Boolean(candidate.structured_profile.summary_or_bio) && (
             <p className="text-gray-700 mb-4 whitespace-pre-wrap">
               {String(candidate.structured_profile.summary_or_bio)}
             </p>
